@@ -49,9 +49,9 @@ Soy un desarrollador en formación con interés en la creación de aplicaciones 
 
 ## 📬 Contacto
 📧 **Email:** [tuemail@example.com](joelalbertopichardoalayon@gmail.com)
-🔗 **LinkedIn:** [linkedin.com/in/tuusuario]([https://linkedin.com/in/tuusuario](https://www.linkedin.com/in/joel-pichardo/))
+🔗 **LinkedIn:** [linkedin.com/in/tuusuario](https://www.linkedin.com/in/joel-pichardo/)
 📷 **Instagram:** [@createdbykeifer](https://instagram.com/createdbykeifer)
-🐙 **GitHub:** [github.com/tuusuario]([https://github.com/tuusuario](https://github.com/KeiferJoel))
+🐙 **GitHub:** [github.com/tuusuario](https://github.com/KeiferJoel)
 
 ---
 
