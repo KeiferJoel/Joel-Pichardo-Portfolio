@@ -2,7 +2,7 @@
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: #222831;
-    overflow: hidden;
+    
    
     user-select: none;
     -webkit-user-select: none; 
@@ -464,6 +464,127 @@ body {
         font-size: 14px;
     }
 }
+
+/* Estilos generales */
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #222831;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Hacer que los elementos se adapten al tamaño de la pantalla */
+.container_up, .navbar1, .navbar, .navbar2, .contact-form, .habilidades-seccion {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Navbar responsivo */
+.navbar1 ul, .navbar ul, .navbar2 ul {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbar1 a, .navbar a, .navbar2 a {
+    font-size: 16px;
+}
+
+/* Habilidades en grid responsivo */
+.habilidades-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+/* Proyectos en grid responsivo */
+.proyectos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* Ajustar imágenes de proyectos */
+.proyecto-card img {
+    height: 200px;
+}
+
+/* Contacto responsivo */
+.contact-form {
+    width: 90%;
+    padding: 10px;
+}
+
+
+
+/* Ajustes específicos para pantallas menores a 768px (tablets y móviles) */
+@media (max-width: 768px) {
+    .Logo-Name {
+        font-size: 24px;
+    }
+
+    .slogan {
+        font-size: 14px;
+    }
+
+    .navbar1 ul, .navbar ul, .navbar2 ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .habilidades-grid, .proyectos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .divider, .divider2, .divider3 {
+        width: 90%;
+    }
+
+    .contact-title {
+        font-size: 28px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .proyecto-card img {
+        height: auto;
+    }
+}
+
+/* Ajustes para pantallas menores a 480px (móviles pequeños) */
+@media (max-width: 480px) {
+    .Logo-Name {
+        font-size: 20px;
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+
+    .navbar1 ul, .navbar ul, .navbar2 ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .habilidades-grid, .proyectos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .habilidad, .proyecto-card {
+        max-width: 100%;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+}
+
 
 
 
