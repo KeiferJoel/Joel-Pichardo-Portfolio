@@ -1,0 +1,477 @@
+/* Estilos generales */
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #222831;
+    overflow: hidden;
+   
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.backgroundBlur{
+    background-color: #222831c7;
+    backdrop-filter: grayscale(10);
+    backdrop-filter: blur(2px);
+    
+}
+
+.background{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png) ;
+  
+}
+
+/* Header */
+.container_up {
+    background-color: #222831;
+    padding: 20px;
+}
+
+.Logo-Name {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.slogan {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Navbar */
+
+.navbar1 {   
+    border-radius: 75px 75px 0 0 ;
+    background-color: #31363F;
+    padding: 10px;
+}
+
+.navbar1 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar1 ul li {
+    display: inline;
+}
+
+.navbar1 ul li a.active {
+    color: #76ABAE;
+    font-weight: bold;
+}
+
+.navbar1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar1 a:hover {
+    color: #76ABAE;
+}
+
+
+
+/*Nav bar 2*/
+
+
+
+.navbar {   
+    border-radius:  0 0 55px 55px ;
+    background-color: #31363F;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a.active {
+    color: #76ABAE;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #76ABAE;
+}
+
+/*navbar3*/
+
+.navbar2 {   
+
+    background-color: #31363F;
+    padding: 10px;
+}
+
+.navbar2 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar2 ul li {
+    display: inline;
+}
+
+.navbar2 ul li a.active {
+    color: #76ABAE;
+    font-weight: bold;
+}
+
+.navbar2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar2 a:hover {
+    color: #76ABAE;
+}
+
+/* Secciones */
+.container_center, .container_mid {
+    padding: 60px 20px;
+}
+
+.container_center {
+    background-color: #31363F;
+}
+
+.container_mid {
+    background-color: #76ABAE;
+    color: black;
+}
+
+
+/* Sección de habilidades */
+.habilidades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.habilidad {
+    background: #EEEEEE;
+    color: #222831;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition:  0.3s ease-in-out;
+    max-width: 200px;
+}
+
+.habilidad:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 10px rgba(48, 48, 48, 0.699);
+    
+
+}
+
+.habilidad img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.habilidad h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.habilidad p {
+    font-size: 14px;
+}
+
+/* Línea divisoria para separar habilidades */
+.habilidades-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.habilidades-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 940px;
+    height: 4px;
+    background: #31363F;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.divider2 {
+    width: 800px;
+    height: 4px;
+    background: #31363F;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.divider3 {
+    width: 750px;
+    height: 4px;
+    background: #31363F;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+
+/* Sección de habilidades técnicas y blandas */
+.habilidades-seccion {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background: #31363f21;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.habilidades-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.habilidad-item {
+    background: #EEEEEE;
+    color: #222831;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: default;
+}
+
+.habilidad-item:hover {
+    transform: scale(1.05);
+    background-color:#76ABAE;   
+}
+
+
+/* Sección de Proyectos */
+.proyectos-section {
+    background-color: #31363F;
+    border-radius: 0 0 65px 65px ;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.proyectos-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.proyecto-card {
+    background: #EEEEEE;
+    color: #222831;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    max-width: 320px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.proyecto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 10px rgb(22, 22, 22);
+}
+
+.proyecto-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.proyecto-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.proyecto-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.proyecto-card a {
+    text-decoration: none;
+    background-color: #76ABAE;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.proyecto-card a:hover {
+    background-color: #5a8d91;
+    
+    
+}
+
+/* Sección de Contacto */
+.contact-section {
+    background-color: #31363F;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Título de la sección */
+.contact-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    background-color: #222831;
+    padding: 15px 40px;
+    border-radius: 10px;
+    max-width: 600px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Esto lo centra en la pantalla */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+/* Etiquetas y texto dentro del formulario */
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%; /* Asegura que los campos ocupen todo el ancho del formulario */
+    padding: 16px;
+    margin: 12px 0;
+    border: 2px solid #76ABAE;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #222831;
+    color: white;
+    transition: border 0.3s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #5a8d91;
+    outline: none;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #76ABAE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #5a8d91;
+}
+
+/* Información adicional */
+.contact-info {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #76ABAE;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-info a:hover {
+    color: #5a8d91;
+    text-decoration: underline;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 30px;
+        width: 90%; /* Ajusta el ancho del formulario para pantallas más pequeñas */
+        left: 0; /* Elimina cualquier desplazamiento */
+        transform: none;
+    }
+    .contact-title {
+        font-size: 28px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #222831;
+    padding: 20px;
+    font-size: 14px;
+}
+
