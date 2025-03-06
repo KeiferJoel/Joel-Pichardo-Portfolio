@@ -49,6 +49,7 @@ body {
     border-radius: 75px 75px 0 0 ;
     background-color: #31363F;
     padding: 10px;
+    
 }
 
 .navbar1 ul {
@@ -157,7 +158,7 @@ body {
 
 /* Secciones */
 .container_center, .container_mid {
-    padding: 60px 20px;
+    padding: 45.6px 20px;
 }
 
 .container_center {
@@ -175,8 +176,9 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 0px 20px;
     justify-items: center;
+    
 }
 
 .habilidad {
@@ -254,7 +256,7 @@ body {
 .habilidades-seccion {
     width: 80%;
     max-width: 900px;
-    padding: 20px;
+    padding: 10px 20px;
     background: #31363f21;
     backdrop-filter: blur(8px);
     border-radius: 10px;
