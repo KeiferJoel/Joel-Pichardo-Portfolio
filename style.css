@@ -371,7 +371,7 @@ body {
 /* Título de la sección */
 .contact-title {
     font-size: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
@@ -389,7 +389,7 @@ body {
 /* Etiquetas y texto dentro del formulario */
 .contact-form h3 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
@@ -429,13 +429,13 @@ body {
 
 /* Información adicional */
 .contact-info {
-    margin-top: 40px;
-    font-size: 16px;
+    margin-top: 20px;
+    font-size: 14.8px;
     line-height: 1.6;
 }
 
 .contact-info p {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .contact-info a {
