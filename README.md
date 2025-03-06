@@ -31,17 +31,18 @@ Soy un desarrollador en formación con interés en la creación de aplicaciones 
 ## 📂 Proyectos Destacados
 
 ### 🎨 **[Keifer Joel | 555]**
-📌 Descripción breve del proyecto.
-✅ Tecnologías usadas: HTML, CSS, JavaScipt, React.
+📌 Artist producer web page.
+✅ Tecnologías usadas: HTML, CSS, JavaScipt.
 🔗 [Ver Proyecto](https://keiferjoel.wuaze.com/?i=1)
 
 ### 📱 **[K-Player Concept | UI/UX Design | App Design]**
-📌 Aplicación móvil desarrollada en .NET MAUI/Kotlin.
-✅ Funcionalidades clave.
+📌 Multiplayer App Design.
+✅ Tecnologías usadas: FIGMA, CSS, Illustrator.
 🔗 [Ver Proyecto](https://www.behance.net/gallery/216372631/K-Player-Concept-UIUX-Design-App-Design)
 
 ### 🎮 **[Pixel Game web]**
-📌 Modelado y animación 3D en Blender.
+📌 Video Games web page.
+✅ Tecnologías usadas: HTML, CSS, JavaScipt.
 🔗 [Ver Proyecto](https://github.com/KeiferJoel/Pixel_Game_Web)
 
 
