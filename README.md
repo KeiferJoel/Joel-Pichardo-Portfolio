@@ -1,7 +1,8 @@
 # 🚀 Portafolio de Desarrollo - Keifer Joel
 
 
-[🌍 Visita mi Portafolio](https://keiferjoel.github.io/Keifer-Joel-Portfolio/index.html)
+<a href="https://keiferjoel.github.io/Keifer-Joel-Portfolio/index.html" target="_blank">🌍 Visita mi Portafolio</a>
+
 
 Bienvenido a mi portafolio de desarrollo. Aquí encontrarás proyectos que reflejan mi pasión por la programación, el diseño gráfico y el diseño 3D.
 
